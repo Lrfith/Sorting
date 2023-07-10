@@ -22,9 +22,7 @@ int main()
     {
 
         // show menu
-        cout << "-------------------------------------------------------------------------" << endl;
-        cout << "------------------------------ >>> MENU <<< -----------------------------" << endl;
-        cout << "-------------------------------------------------------------------------" << endl;
+        cout << ">Menu" << endl;
         cout << "1: Selection sort\n";
         cout << "2: Insertion sort\n";
         cout << "3: Bubble sort\n";
@@ -35,13 +33,13 @@ int main()
 
         // asking for choice
         cout << endl;
-        cout << "-------------------------- >>> USER CHOICE <<< --------------------------" << endl;
+        cout << ">Please enter your select" << endl;
         cout << "Enter your choice: ";
         cin >> choice;
         cout << endl;
 
         // check user choice
-        cout << "-------------------------- >>> CALL METHODS <<< -------------------------" << endl;
+        cout << ">Please enter your options" << endl;
         switch (choice)
         {
 
@@ -115,10 +113,10 @@ int main()
             sort.displayTimeElapsed();
             break;
         case 0:
-            cout << "------------------------------- >>> Bye <<< -----------------------------" << endl;
+            cout << ">Exit" << endl;
             break;
         default:
-            cout << "[!!! Wrong choice, try again !!!]" << endl;
+            cout << "[Wrong options, try again]" << endl;
         }
 
     } while (choice != 0);
