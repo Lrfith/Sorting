@@ -7,7 +7,7 @@
 
 class Sorting
 {
-private:
+public:
     ArrayList *data;
     ArrayList *temp;
     int maxSize;

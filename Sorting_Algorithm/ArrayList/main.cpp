@@ -1,9 +1,3 @@
-/**************************************
- * ID: 65009138
- * NAME: Ms.Nuttamon Malakan
- * DESCRIPTION: Testing for ArrayList
- **************************************/
-
 #include <iostream>
 
 #include "ArrayList.h"

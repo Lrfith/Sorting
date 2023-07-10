@@ -1,9 +1,3 @@
-/********************************************************************************************
- * ID: 65009138
- * NAME: Ms.Nuttamon Malakan
- * DESCRIPTION: Sorting Algorithms contain Selection, Insertion, Bubble, Shell, Merge, Quick
- ********************************************************************************************/
-
 #include <iostream>
 
 #include "Sorting.h"
@@ -15,7 +9,12 @@ int main()
     int n;
     cout << "Enter number of element: "; cin >> n;
     Sorting sort(n);
-    //sort.random();
+    for (int i = 0; i < n; i++) {
+    int element;
+    cout << "Enter element " << i+1 << ": ";
+    cin >> element;
+    sort.data->set(i, element);
+    }
     sort.backup();
     int choice;
 
