@@ -20,7 +20,6 @@ Sorting::Sorting(int maxSize)
     }
     // for random data
     srand(time(NULL));
-    
 }
 
 Sorting::~Sorting()

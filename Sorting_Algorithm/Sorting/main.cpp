@@ -15,20 +15,8 @@ int main()
     int n;
     cout << "Enter number of element: "; cin >> n;
     Sorting sort(n);
-    sort.random();
+    //sort.random();
     sort.backup();
-    // int n = 7; // Number of elements
-    // Sorting sort(n);
-    
-    // Set the elements manually
-    // sort.data->set(0, 29);
-    // sort.data->set(1, 57);
-    // sort.data->set(2, 34);
-    // sort.data->set(3, 5);
-    // sort.data->set(4, 22);
-    // sort.data->set(5, 39);
-    // sort.data->set(6, 91);
-    // sort.backup(); // unforget to change header to public
     int choice;
 
     do

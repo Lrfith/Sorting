@@ -7,7 +7,7 @@
 
 class Sorting
 {
-public:
+private:
     ArrayList *data;
     ArrayList *temp;
     int maxSize;
@@ -64,6 +64,7 @@ private:
     // * Quick method
     void quick_(int begin, int end);                            // * done 
     int pickPivotIndex(int begin, int end);                     // * done
+
 };
 
 #endif // _SORTING_H_
